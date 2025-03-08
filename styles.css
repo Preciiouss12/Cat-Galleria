@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+figure {
+    border: 2px solid gray;
+    padding: 5px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+}
